@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 min-h-screen bg-game-bg text-gray-900;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-white text-gray-900 font-semibold rounded-xl shadow-md hover:shadow-lg transition-all duration-200 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent text-gray-900 font-semibold rounded-xl hover:bg-white/20 transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .animate-flipIn {
+    animation: flipIn 0.5s ease-out forwards;
+  }
+
+  .animate-scaleIn {
+    animation: scaleIn 0.3s ease-out forwards;
+  }
+}
+
+@keyframes flipIn {
+  0% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
