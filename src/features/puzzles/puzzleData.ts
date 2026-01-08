@@ -157,6 +157,188 @@ export const puzzleBank: Omit<Puzzle, 'id' | 'date'>[] = [
     category: 'Objects',
   },
 
+  // Emotions & Mental States
+  {
+    emojis: ['🧠', '💡'],
+    answer: 'idea',
+    synonyms: ['thought', 'concept'],
+    category: 'Mental',
+  },
+  {
+    emojis: ['⏰', '💤'],
+    answer: 'sleep',
+    synonyms: ['rest', 'nap'],
+    category: 'Daily Life',
+  },
+  {
+    emojis: ['🔥', '💪'],
+    answer: 'motivation',
+    synonyms: ['drive', 'energy'],
+    category: 'Emotions',
+  },
+  {
+    emojis: ['📈', '💰'],
+    answer: 'profit',
+    synonyms: ['gain', 'earnings'],
+    category: 'Business',
+  },
+  {
+    emojis: ['🌧️', '☔'],
+    answer: 'rain',
+    synonyms: ['storm', 'shower'],
+    category: 'Weather',
+  },
+  {
+    emojis: ['🧘', '😌'],
+    answer: 'calm',
+    synonyms: ['peace', 'relaxation'],
+    category: 'Emotions',
+  },
+  {
+    emojis: ['📚', '🧠'],
+    answer: 'learning',
+    synonyms: ['study', 'education'],
+    category: 'Education',
+  },
+  {
+    emojis: ['💼', '🏢'],
+    answer: 'work',
+    synonyms: ['job', 'career'],
+    category: 'Business',
+  },
+  {
+    emojis: ['🏃', '💦'],
+    answer: 'exercise',
+    synonyms: ['workout', 'training'],
+    category: 'Sports',
+  },
+  {
+    emojis: ['🍎', '🥗'],
+    answer: 'healthy',
+    synonyms: ['nutrition', 'wellness'],
+    category: 'Health',
+  },
+  {
+    emojis: ['😴', '⏰'],
+    answer: 'oversleep',
+    synonyms: ['late', 'tired'],
+    category: 'Daily Life',
+  },
+  {
+    emojis: ['💡', '🚀'],
+    answer: 'innovation',
+    synonyms: ['invention', 'breakthrough'],
+    category: 'Business',
+  },
+  {
+    emojis: ['💸', '📉'],
+    answer: 'loss',
+    synonyms: ['decline', 'deficit'],
+    category: 'Business',
+  },
+  {
+    emojis: ['🌱', '⏳'],
+    answer: 'growth',
+    synonyms: ['progress', 'development'],
+    category: 'Concepts',
+  },
+  {
+    emojis: ['😤', '🔥'],
+    answer: 'anger',
+    synonyms: ['rage', 'frustration'],
+    category: 'Emotions',
+  },
+  {
+    emojis: ['🤝', '💬'],
+    answer: 'agreement',
+    synonyms: ['deal', 'consensus'],
+    category: 'Social',
+  },
+  {
+    emojis: ['🎯', '🧠'],
+    answer: 'focus',
+    synonyms: ['concentration', 'attention'],
+    category: 'Mental',
+  },
+  {
+    emojis: ['🚧', '🛑'],
+    answer: 'obstacle',
+    synonyms: ['block', 'barrier'],
+    category: 'Challenges',
+  },
+  {
+    emojis: ['💭', '🧠'],
+    answer: 'thinking',
+    synonyms: ['reflection', 'thought'],
+    category: 'Mental',
+  },
+  {
+    emojis: ['🎉', '🥂'],
+    answer: 'celebration',
+    synonyms: ['party', 'success'],
+    category: 'Social',
+  },
+  {
+    emojis: ['😬', '💭'],
+    answer: 'anxiety',
+    synonyms: ['stress', 'worry'],
+    category: 'Emotions',
+  },
+  {
+    emojis: ['📊', '🧮'],
+    answer: 'analysis',
+    synonyms: ['evaluation', 'calculation'],
+    category: 'Business',
+  },
+  {
+    emojis: ['🏆', '💪'],
+    answer: 'achievement',
+    synonyms: ['victory', 'success'],
+    category: 'Success',
+  },
+  {
+    emojis: ['🛠️', '💡'],
+    answer: 'solution',
+    synonyms: ['fix', 'answer'],
+    category: 'Problem Solving',
+  },
+  {
+    emojis: ['⏳', '😤'],
+    answer: 'patience',
+    synonyms: ['waiting', 'endurance'],
+    category: 'Emotions',
+  },
+  {
+    emojis: ['🧑‍🤝‍🧑', '❤️'],
+    answer: 'friendship',
+    synonyms: ['bond', 'connection'],
+    category: 'Social',
+  },
+  {
+    emojis: ['🌍', '✈️'],
+    answer: 'travel',
+    synonyms: ['journey', 'trip'],
+    category: 'Activities',
+  },
+  {
+    emojis: ['💤', '😵'],
+    answer: 'exhausted',
+    synonyms: ['tired', 'burnout'],
+    category: 'Emotions',
+  },
+  {
+    emojis: ['🪙', '📈'],
+    answer: 'investment',
+    synonyms: ['asset', 'capital'],
+    category: 'Business',
+  },
+  {
+    emojis: ['🎨', '🧠'],
+    answer: 'creativity',
+    synonyms: ['imagination', 'artistry'],
+    category: 'Mental',
+  },
+
   // MORE PUZZLES TO ADD:
   // Add your puzzles below following the same format!
   // Example template:
